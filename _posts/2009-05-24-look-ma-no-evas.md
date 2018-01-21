@@ -33,7 +33,7 @@ The stack I've been developing is as follows:
 Here you can see a simple demo with some features I've done the past days: animated matrix transformations  
   
   
-<object id="BLOG_video-995868701a49816b" class="BLOG_video_class" contentid="995868701a49816b" width="320" height="266"></object
+<object id="BLOG_video-995868701a49816b" class="BLOG_video_class" contentid="995868701a49816b" width="320" height="266"></object>
   
   
 Update: To create the video I used this xml. Eon has a parser for XML based scene files.  
