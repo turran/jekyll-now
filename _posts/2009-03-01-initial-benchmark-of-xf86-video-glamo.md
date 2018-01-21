@@ -14,7 +14,7 @@ blogger_orig_url: http://www.turran.org/2009/03/initial-benchmark-of-xf86-video-
 After my tremendous problems building my build environment I have finally succeed :)  
 So I had the chance to give xorg-video-glamo a try and see how well it behaves. To do the benchmark I used expedite and the results are:  
   
-`  
+```
 2.76 , Image Blend Unscaled  
 12.69 , Image Blend Solid Unscaled  
 1.56 , Image Blend Nearest Scaled  
@@ -58,7 +58,8 @@ So I had the chance to give xorg-video-glamo a try and see how well it behaves. 
 0.36 , Image Blend Occlude 3 Very Many  
 3.51 , Polygon Blend  
 11.86 , EVAS SPEED  
-`  
+```
+
 The benchmark took around half an hour to end and from the final EVAS SPEED value, it is really, really slow.  
   
 Note that right now the driver is just a wrapper on top of the fbdev, so no acceleration is coded yet, only software based rendering and giving that the CPU isn't that fast either, there's no surprise on the benchmark.  
